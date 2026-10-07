@@ -27,7 +27,7 @@ python -m pip install -r requirements.txt
 
 This is a 90-minute prototype. MPA boundaries are simplified hard-coded polygons and should be replaced with authoritative reusable boundaries such as WDPA or Marine Regions data in production. Analytical charts use the maximum 500 records loaded into the prototype rather than the complete OBIS result set, so they must not be interpreted as complete summaries. The current version implements records-per-year and records-per-higher-taxon panels but not contribution by OBIS node or publishing institution.
 
-With two more days, I would add authoritative MPA geometries, server-side aggregation of the complete OBIS result set, node/institution contribution statistics, improved pagination/caching, automated tests and deployment configuration.
+With two more days, I would add aggregation of the complete OBIS result set, node/institution contribution statistics, automated tests and deployment configuration.
 
 ## Data source
 
